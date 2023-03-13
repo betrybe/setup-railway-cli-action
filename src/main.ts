@@ -22,9 +22,9 @@ async function run(): Promise<void> {
 
     // Rawfiles to our scripts
     const npmGlobalInstallWorkaround =
-      "https://raw.githubusercontent.com/MadeByThePinsHub/setup-railway-cli-action/main/scripts/npm-install-global-workaround";
+      "https://raw.githubusercontent.com/betrybe/setup-railway-cli-action/main/scripts/npm-install-global-workaround";
     const buildFromSourceScript =
-      "https://raw.githubusercontent.com/MadeByThePinsHub/setup-railway-cli-action/main/scripts/build-from-source";
+      "https://raw.githubusercontent.com/betrybe/setup-railway-cli-action/main/scripts/build-from-source";
 
     core.startGroup("Installing Railway CLI");
     if (npmInstall == "true") {

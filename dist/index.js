@@ -2124,8 +2124,8 @@ function run() {
             const cliClonePath = "/tmp/railwayappcli";
             const cliPath = cliClonePath + "/bin";
             // Rawfiles to our scripts
-            const npmGlobalInstallWorkaround = "https://raw.githubusercontent.com/MadeByThePinsHub/setup-railway-cli-action/main/scripts/npm-install-global-workaround";
-            const buildFromSourceScript = "https://raw.githubusercontent.com/MadeByThePinsHub/setup-railway-cli-action/main/scripts/build-from-source";
+            const npmGlobalInstallWorkaround = "https://raw.githubusercontent.com/betrybe/setup-railway-cli-action/main/scripts/npm-install-global-workaround";
+            const buildFromSourceScript = "https://raw.githubusercontent.com/betrybe/setup-railway-cli-action/main/scripts/build-from-source";
             core.startGroup("Installing Railway CLI");
             if (npmInstall == "true") {
                 if (cliRepoUrl && npmInstall == "true") {

@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MadeByThePinsHub/setup-railway-cli-action.git"
+    "url": "git+https://github.com/betrybe/setup-railway-cli-action.git"
   },
   "keywords": [
     "github-action",
